@@ -1,0 +1,8 @@
+Dataset,Check,Issue_Count,Decision
+retail_inventory_ml_apl,Duplicate rows,0,No action required
+retail_inventory_ml_apl,Negative stock quantity,1380,Flag for investigation
+retail_inventory_ml_apl,Negative unit cost,25,Flag for investigation
+retail_inventory_ml_apl,Zero selling price,13869,Validate separately
+retail_inventory_ml_apl,Cost valuation mismatch,7542,Zero-quantity records only; preserve
+retail_store_inventory,Negative demand forecast,673,Flag before modelling
+retail_sales_ml_apl,Return transactions,7491,Preserve as returns
